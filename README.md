@@ -1,33 +1,49 @@
 # Shopify + Dialogflow + OpenAI Webhook
 
+[![Node.js CI](https://github.com/clarksonkpenseme-bit/shopify-dialogflow-bot/actions/workflows/nodejs.yml/badge.svg)](https://github.com/clarksonkpenseme-bit/shopify-dialogflow-bot/actions/workflows/nodejs.yml)
+
 This repository is a minimal starter for a webhook that connects Dialogflow (fulfillment), OpenAI (GPT) and the Shopify Admin REST API.
 
-Features
+## Features
 - Express webhook endpoint for Dialogflow
 - OpenAI Chat Completions integration using fetch
 - Small helpers to call Shopify Admin REST API
 - ES module style (Node.js `type: "module"`)
+- Automated testing with Jest
+- GitHub Actions CI pipeline
 
-Requirements
-- Node.js 18+ (or any version with ESM and fetch support). This scaffold uses `node-fetch`.
+## Requirements
+- Node.js 18+ (or any version with ESM and fetch support)
 - A valid OpenAI API key
 - A Shopify store and Admin API access token (private app or Admin API access)
 - (Optional) ngrok for local webhook testing
 
-Setup
+## Setup
 
 1. Clone the repo and install dependencies
 
+```bash
 npm install
+```
 
 2. Copy the environment example and fill in secrets
 
+```bash
 copy .env.example .env
-Edit `.env` and set the values for your environment.
+# then edit .env in your editor and set the values
+```
 
-3. Run locally (development)
+3. Run tests (optional but recommended)
 
+```bash
+npm test
+```
+
+4. Start development server
+
+```bash
 npm run dev
+```
 
 4. Expose to the internet using ngrok (for Dialogflow webhook URL)
 
