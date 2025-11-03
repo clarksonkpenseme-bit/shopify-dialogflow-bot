@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Soothing Scalp Serum",
+    "category": "Scalp Care",
+    "description": "A calming serum that relieves scalp irritation and reduces redness with aloe and chamomile.",
+    "price": 18.99,
+    "image": "https://example.com/images/soothing-scalp-serum.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Intensive Hair Growth Oil",
+    "category": "Growth",
+    "description": "A nutrient-rich oil blend with castor and rosemary to stimulate hair follicles and promote healthy growth.",
+    "price": 24.50,
+    "image": "https://example.com/images/hair-growth-oil.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Ultra Moisture Hair Cream",
+    "category": "Moisturizing",
+    "description": "A deeply hydrating cream with shea butter and argan oil to lock in moisture and soften dry hair.",
+    "price": 15.75,
+    "image": "https://example.com/images/moisture-hair-cream.jpg"
+  }
+]
